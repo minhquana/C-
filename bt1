@@ -1,11 +1,16 @@
+#include <iostream>
+#include <string>
 
-#include<iostream>
-int main(){
-    std::cout <<"HỌ và Tên : Nguyễn Bình Minh Quân " << std::endl ;
- 
-    std::cout << "Ngày Tháng Năm Sinh : 10/12/2003"<< std::endl ;
-    std::cout << "Ngày Tháng Năm Sinh : 10/12/2003"<< std::endl ;
-    std::cout << "Nghề Nghiệp  : Sinh Viên"<< std::endl ;
-    std::cout << "Mô Tả Bản Thân : Một anh chàng năng động "<< std::endl ;
+int main() {
+    std::string hoTen = "Họ và tên: John Doe";
+    std::string ngaySinh = "Ngày tháng năm sinh: 10/12/2003";
+    std::string ngheNghiep = "Nghề nghiệp: Kỹ sư phần mềm";
+    std::string moTa = "Mô tả bản thân: Tôi là một kỹ sư phần mềm đam mê công nghệ và lập trình.";
 
+    std::cout << hoTen << std::endl;
+    std::cout << ngaySinh << std::endl;
+    std::cout << ngheNghiep << std::endl;
+    std::cout << moTa << std::endl;
+
+    return 0;
 }
