@@ -2,7 +2,7 @@
 #include <string>
 
 int main() {
-    std::string hoTen = "Họ và tên: John Doe";
+    std::string hoTen = "Họ và tên: Nguyễn Bình Minh Quân";
     std::string ngaySinh = "Ngày tháng năm sinh: 10/12/2003";
     std::string ngheNghiep = "Nghề nghiệp: Kỹ sư phần mềm";
     std::string moTa = "Mô tả bản thân: Tôi là một kỹ sư phần mềm đam mê công nghệ và lập trình.";
