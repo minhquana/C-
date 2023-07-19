@@ -1,0 +1,11 @@
+
+#include<iostream>
+int main(){
+    std::cout <<"HỌ và Tên : Nguyễn Bình Minh Quân " << std::endl ;
+ 
+    std::cout << "Ngày Tháng Năm Sinh : 10/12/2003"<< std::endl ;
+    std::cout << "Ngày Tháng Năm Sinh : 10/12/2003"<< std::endl ;
+    std::cout << "Nghề Nghiệp  : Sinh Viên"<< std::endl ;
+    std::cout << "Mô Tả Bản Thân : Một anh chàng năng động "<< std::endl ;
+
+}
