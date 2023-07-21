@@ -10,7 +10,7 @@ int main() {
 
     //Nhập dữ liệu
     std::cout << "Nhập họ và tên: " << std::endl;
-    std::getline(std::cin,hoTen);
+    std::getline(std::cin, hoTen);
     std::cout << "Nhập ngày sinh: " << std::endl;
     std::getline(std::cin, ngaySinh);
     std::cout << "Nhập nghề nghiệp: " << std::endl;
