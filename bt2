@@ -2,13 +2,13 @@
 #include <string>
 
 int main() {
-    std::string hoTen ;
-    std::string ngaySinh ;
-    std::string ngheNghiep ;
-    std::string moTa ;
+    std::string hoTen;
+    std::string ngaySinh;
+    std::string ngheNghiep;
+    std::string moTa;
 
-    std::cout << "Nhập họ và tên: "<< std::endl;
-    std::getline(std::cin,hoTen) ;
+    std::cout << "Nhập họ và tên: " << std::endl;
+    std::getline(std::cin,hoTen);
     std::cout << "Nhập ngày sinh: " << std::endl;
     std::getline(std::cin, ngaySinh);
     std::cout << "Nhập nghề nghiệp: " << std::endl;
@@ -16,11 +16,11 @@ int main() {
     std::cout << "Nhập mô tả: " << std::endl;
     std::getline(std::cin, moTa);
 
-    std::cout << "thông tin cá nhân";
+    std::cout << "thông tin cá nhân " << std::endl;
     std::cout << "Họ và tên: " << hoTen << std::endl;
-    std::cout << "Ngày sinh: " << hoTen << std::endl;
-    std::cout << "Nghề nghiệp: " << hoTen << std::endl;
-    std::cout << "Mô tả: " << hoTen << std::endl;
+    std::cout << "Ngày sinh: " << ngaySinh << std::endl;
+    std::cout << "Nghề nghiệp: " << ngheNghiep << std::endl;
+    std::cout << "Mô tả: " << moTa << std::endl;
 
     return 0;
 }
