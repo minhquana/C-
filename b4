@@ -1,0 +1,17 @@
+#include <iostream>
+
+class Solution {
+public:
+    void helloWorld() {
+        std::cout << "Hello World";
+    }
+};
+
+int main()
+{
+    Solution ob;
+    //function call
+    ob.helloWorld();
+    std::cout << std::endl;
+    return 0;
+}
