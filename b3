@@ -1,0 +1,13 @@
+#include<iostream>
+
+void printNewLine() {
+    std::cout << "I" << std::endl;
+    std::cout << "love" << std::endl;
+    std::cout << "The N" << std::endl;
+}
+
+int main() {
+    //function call
+    printNewLine();
+    return 0;
+}
